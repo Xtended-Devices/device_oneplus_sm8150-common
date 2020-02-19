@@ -25,6 +25,9 @@ import android.content.pm.ActivityInfo;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.content.Intent;
+import android.os.RemoteException;
+import android.os.UserHandle;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -39,7 +42,7 @@ public class Utils {
 
     /**
      * Write a string value to the specified file.
-     * 
+     *
      * @param filename The filename
      * @param value    The value
      */
@@ -61,7 +64,7 @@ public class Utils {
 
     /**
      * Check if the specified file exists.
-     * 
+     *
      * @param filename The filename
      * @return Whether the file exists or not
      */
