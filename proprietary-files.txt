@@ -1407,14 +1407,6 @@ vendor/firmware/aw8697_rtp_lighthouse.bin
 vendor/firmware/aw8697_rtp_silk.bin
 vendor/firmware/awinic_haptic_params.bin
 
-# Vibrator HAL
-vendor/lib/hw/vibrator.default.so
-vendor/lib/hw/android.hardware.vibrator@1.0-impl.so
-vendor/lib64/hw/vibrator.default.so
-vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so
-vendor/etc/init/android.hardware.vibrator@1.0-service.rc
-vendor/bin/hw/android.hardware.vibrator@1.0-service
-
 # VPP
 vendor/bin/vppservice
 vendor/etc/configstore/vpp.configstore.xml
