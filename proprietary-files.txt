@@ -1352,25 +1352,20 @@ vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # Vibrator firmware
-vendor/firmware/aw8697_haptic_166.bin
-vendor/firmware/aw8697_haptic_168.bin
-vendor/firmware/aw8697_haptic_170.bin
-vendor/firmware/aw8697_haptic_172.bin
-vendor/firmware/aw8697_haptic_174.bin
+vendor/firmware/alarm_fluttering.bin
 vendor/firmware/aw8697_haptic.bin
 vendor/firmware/aw8697_rtp.bin
 vendor/firmware/aw8697_rtp_lighthouse.bin
 vendor/firmware/aw8697_rtp_silk.bin
-vendor/firmware/awinic_haptic_gun_params.bin
 vendor/firmware/awinic_haptic_params.bin
-vendor/firmware/shuntai24k_rtp.bin
-vendor/firmware/wentai24k_rtp.bin
 
-# Vibrator - OnePlus
-system_ext/etc/vibrator_effect_map.xml
-vendor/bin/hw/vendor.oneplus.hardware.lmvibrator@1.0-service
-vendor/etc/init/vendor.oneplus.hardware.lmvibrator@1.0-service.rc
-vendor/lib64/vendor.oneplus.hardware.lmvibrator@1.0.so
+# Vibrator HAL
+vendor/lib/hw/vibrator.default.so
+vendor/lib/hw/android.hardware.vibrator@1.0-impl.so
+vendor/lib64/hw/vibrator.default.so
+vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so
+vendor/etc/init/android.hardware.vibrator@1.0-service.rc
+vendor/bin/hw/android.hardware.vibrator@1.0-service
 
 # WiFi
 vendor/bin/wifilearner

@@ -301,6 +301,15 @@
         <fqname>@1.0::IOffloadControl/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>android.hardware.vibrator</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IVibrator</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
         <name>com.qualcomm.qti.ant</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -477,15 +486,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IOneplusHdcpKey/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oneplus.hardware.lmvibrator</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ILinearMotorVibrator</name>
-            <instance>default</instance>
-        </interface>
     </hal>
     <hal format="hidl">
         <name>vendor.oneplus.hardware.param</name>

@@ -346,6 +346,15 @@
         <item>0:2:15</item>
     </string-array>
     
+    <!-- OnePlus uses a proprietary vibrator hal to utilize the new powerful motor since the
+         OnePlus 7 Pro. This HAL expects a different format for the data instead of the usual (ms)
+         timing(the duration which the vibrator is expected to vibrate for). -->
+    <bool name="config_hasOnePlusHapticMotor">true</bool>
+    
+    <!-- If a non-zero value is set for config_defaultPeakRefreshRate, then
+         config_defaultRefreshRate may be set to 0, in which case the value set for
+         config_defaultPeakRefreshRate will act as the default frame rate. -->
+         
     <integer name="config_defaultPeakRefreshRate">90</integer>
     <integer name="config_defaultRefreshRate">0</integer>
 

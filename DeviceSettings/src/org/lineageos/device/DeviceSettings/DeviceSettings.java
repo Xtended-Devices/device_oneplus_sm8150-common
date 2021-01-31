@@ -62,17 +62,17 @@ public class DeviceSettings extends PreferenceFragment
     private ListPreference mTopKeyPref;
     private ListPreference mMiddleKeyPref;
     private ListPreference mBottomKeyPref;
-    private VibratorStrengthPreference mVibratorStrength;
+    // private VibratorStrengthPreference mVibratorStrength;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.main);
         getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
 
-        mVibratorStrength = (VibratorStrengthPreference) findPreference(KEY_VIBSTRENGTH);
+        /*mVibratorStrength = (VibratorStrengthPreference) findPreference(KEY_VIBSTRENGTH);
         if (mVibratorStrength == null || !VibratorStrengthPreference.isSupported()) {
             getPreferenceScreen().removePreference((Preference) findPreference("vibrator"));
-        }
+        } */
 
         mTopKeyPref = (ListPreference) findPreference(Constants.NOTIF_SLIDER_TOP_KEY);
         mTopKeyPref.setValueIndex(Constants.getPreferenceInt(getContext(), Constants.NOTIF_SLIDER_TOP_KEY));
