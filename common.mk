@@ -429,6 +429,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.0.vendor
 
+# SoC
+PROCESSOR_MODEL := SM8150
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
@@ -459,9 +462,8 @@ PRODUCT_PACKAGES += \
     KeyHandler \
     tri-state-key-calibrate
 
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+# UDFPS animations
+EXTRA_UDFPS_ANIMATIONS := true
 
 # Update engine
 PRODUCT_PACKAGES += \
