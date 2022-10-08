@@ -70,4 +70,7 @@
     <!-- NightLight FOD -->
     <bool name="disable_fod_night_light">true</bool>
     
+    <!-- Exempt cne from privacy (location) indicators -->
+    <string name="config_systemAudioIntelligence" translatable="false">com.qualcomm.qti.cne</string>
+    
 </resources>
