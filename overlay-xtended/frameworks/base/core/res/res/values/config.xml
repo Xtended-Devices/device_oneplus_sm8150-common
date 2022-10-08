@@ -67,4 +67,7 @@
     <bool name="config_proximityCheckOnWake">true</bool>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
+    <!-- NightLight FOD -->
+    <bool name="disable_fod_night_light">true</bool>
+    
 </resources>
