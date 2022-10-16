@@ -7,4 +7,7 @@
 -->
 <resources>
 
+    <!-- NightLight FOD -->
+    <bool name="disable_fod_night_light">true</bool>
+
 </resources>
