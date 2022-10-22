@@ -19,11 +19,6 @@ PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
-# Alert slider
-PRODUCT_PACKAGES += \
-    KeyHandler \
-    tri-state-key-calibrate
-
 # APEX
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -222,6 +217,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.oplus.rc \
+    init.oplus_extras.rc \
     init.oplus.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
@@ -298,6 +294,11 @@ PRODUCT_PACKAGES += \
     libOmxVidcCommon \
     libstagefrighthw
 
+# OPlusExtras
+PRODUCT_PACKAGES += \
+    OPlusExtras \
+    tri-state-key-calibrate
+
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
@@ -307,10 +308,11 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget \
     OPlusFrameworksResCommon \
     OplusDozeResTarget \
+    OPlusExtrasResCommon \
     XtendedFrameworksResCommon \
     XtendedSettingsResCommon \
     XtendedSystemUIResCommon
-
+    
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
