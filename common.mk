@@ -304,6 +304,7 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget \
     OPlusFrameworksResCommon \
     OPlusExtrasResCommon \
+    OPlusSystemUIResCommon \
     XtendedFrameworksResCommon \
     XtendedSettingsResCommon \
     XtendedSystemUIResCommon
