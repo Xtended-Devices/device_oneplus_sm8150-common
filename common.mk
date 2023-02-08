@@ -301,15 +301,15 @@ PRODUCT_PACKAGES += \
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-xtended
-
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
     FrameworksResTarget \
     OPlusFrameworksResCommon \
-    OplusDozeResTarget
+    OplusDozeResTarget \
+    XtendedFrameworksResCommon \
+    XtendedSettingsResCommon \
+    XtendedSystemUIResCommon
 
 # Power
 PRODUCT_PACKAGES += \

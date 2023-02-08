@@ -2,6 +2,7 @@
 <!--
      Copyright (C) 2015-2016 The CyanogenMod Project
                    2017-2018 The LineageOS Project
+                   2022-2023 Project-Xtended
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
@@ -64,5 +65,8 @@
         <item>org.thunderdog.challegram</item>
         <item>us.zoom.videomeetings</item>
     </string-array>
+    
+    <!-- NightLight FOD -->
+    <bool name="disable_fod_night_light">true</bool>
 
 </resources>
