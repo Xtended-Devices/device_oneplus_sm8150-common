@@ -80,4 +80,7 @@
     <!-- NightLight FOD -->
     <bool name="disable_fod_night_light">true</bool>
 
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
+
 </resources>
