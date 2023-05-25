@@ -117,4 +117,6 @@
     <!-- Whether device has warp charging support -->
     <bool name="config_hasWarpCharger">true</bool>
 
+    <!-- Mock Oplus LinearmotorVibratorService -->
+    <bool name="config_mockOplusLinearmotorVibratorService">true</bool>
 </resources>
